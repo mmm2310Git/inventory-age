@@ -209,6 +209,7 @@ def weightedInv():
     return weightedDays
 
 app = dash.Dash(__name__)
+server=app.server
 app.layout = dbc.Container([    
     dbc.Row([
             dbc.Col(id='r1c1',children=[html.Label(id='lnt_logo', 
