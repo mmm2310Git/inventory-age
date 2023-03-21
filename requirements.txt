@@ -4,6 +4,6 @@ dash-table==5.0.0
 dash-core-components==2.0.0
 dash-html-components==2.0.0
 pandas
-numpy==1.22.4
-pickleshare==0.7.5
-regex==2022.6.2
+numpy
+pickleshare
+regex
