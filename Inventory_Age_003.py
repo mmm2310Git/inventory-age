@@ -519,7 +519,7 @@ def update_All(clickData, Data, filter, ddown):
 # log.setLevel(logging.ERROR) 
 # app = dash.Dash(__name__)
 if __name__ == "__main__":
-    app.run_server(port=8888 ,debug=False)
+    app.run_server(debug=True)
     # app.run(use_reloader=False)
 
 # fl.close()
